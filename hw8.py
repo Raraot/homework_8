@@ -17,10 +17,10 @@ def main(users):
                 d['Monday'].append(name_w)
             else:
                 d[day_w].append(name_w)
+                
     for key, value in d.items():                                                 # прінтуємо у правильному вигляді результат
         if len(value)>0:
             print(f"{key}: {', '.join(value)}")
-
 
 
 
